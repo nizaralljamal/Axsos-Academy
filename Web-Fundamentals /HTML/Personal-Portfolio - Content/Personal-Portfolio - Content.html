@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 1px;
+            padding: 2px;
+        }
+        #message-id {
+            margin-top: 10px;
+        }
+        #button {
+            background-color: white;
+            padding: 2px;
+            margin: 10px;
+            box-shadow: 2px 3px 0px 0px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            padding: 8px;
+        }
+        td:last-child {
+            border-right: none;
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Programmer Name</h1>
+        </nav>
+        <section>
+            <div>
+                <img src="/Web-Fundamentals /HTML/Personal-Portfolio - Content/images/person-circle-outline.svg"
+                    alt="person" width="90px">
+            </div>
+            <div>
+                <img src="/Web-Fundamentals /HTML/Personal-Portfolio - Content/images/logo-github.svg" alt="github"
+                    width="30">
+                <a href="https://github.com/nizaralljamal">my github</a>
+                <img src="/Web-Fundamentals /HTML/Personal-Portfolio - Content/images/logo-linkedin.svg" alt="linkid in"
+                    width="30">
+                <a href="https://www.linkedin.com/">my linked in</a>
+                <img src="/Web-Fundamentals /HTML/Personal-Portfolio - Content/images/logo-facebook.svg" alt="facebook"
+                    width="30">
+                <a href="https://www.facebook.com/">my facebook</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h3>Technologies</h3>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Front-End</th>
+                            <th>Python</th>
+                            <th>JavaScript</th>
+                            <th>Database</th>
+                            <th>Concepts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                HTML5
+                            </td>
+                            <td>
+                                Django
+                            </td>
+                            <td>
+                                Express
+                            </td>
+                            <td>
+                                MySQL
+                            </td>
+                            <td>
+                                AJAX
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                CSS3
+                            </td>
+                            <td>
+                                Flask
+                            </td>
+                            <td>
+                                Mongoose
+                            </td>
+                            <td>
+                                MongoDB
+                            </td>
+                            <td>
+                                OOP
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Bootstrap
+                            </td>
+                            <td>
+                                Unittest
+                            </td>
+                            <td>
+                                React
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                REST
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <figure class="fig">
+                    <figcaption>
+                        <h3>Socail Snakes</h3>
+                    </figcaption>
+                    <img src="/Web-Fundamentals /HTML/Personal-Portfolio - Content/images/closetag.png" alt="CloseTag"
+                        width="60px">
+                    <figcaption>Social Media App made in Python - <a href="">code</a>|<a href="">deployed</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <section>
+                <h3>Contact Me</h3>
+                <form action="" method="post">
+                    <div>
+                        <label for="name-id">Name:</label>
+                        <input id="name-id" type="text" name="name" placeholder="Enter Your Name" maxlength="255"
+                            required>
+                        <label for="email-id">Email:</label>
+                        <input id="email-id" type="email" name="email" placeholder="Enter Your Email" maxlength="255"
+                            required>
+                    </div>
+                    <div>
+                        <label class="label" for="message-id">Message:</label>
+                        <textarea id="message-id" name="message" placeholder="Enter Your Message" maxlength="255"
+                            rows="2" cols="45" required></textarea>
+                    </div>
+                    <button id="button" type="submit">Send Message</button>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
