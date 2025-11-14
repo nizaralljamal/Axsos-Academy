@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Registration Form</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="/api/example/users" method="post">
+                <div>
+                    <label for="first-id">First Name: *</label>
+                    <input id="first-id" type="text" name="FirstName" placeholder="Enter Your Name" maxlength="255"
+                        required>
+                </div>
+                <div>
+                    <label for="last-id">Last Name: *</label>
+                    <input id="last-id" type="text" name="LastName" placeholder="Enter Your LastName" maxlength="255"
+                        required>
+                </div>
+                <div>
+                    <label for="email-id">Email Address: *</label>
+                    <input id="email-id" type="email" name="Email" placeholder="Enter Your Email" maxlength="255"
+                        required>
+                </div>
+                <div>
+                    <label for="password-id">Password: *</label>
+                    <input id="password-id" type="password" name="Password" placeholder="Enter Your Password"
+                        maxlength="255" required>
+                </div>
+                <div>
+                    <label for="confirm-password-id">Confirm Password: *</label>
+                    <input id="confirm-password-id" type="password" name="ConfirmPassword"
+                        placeholder="Enter Your Password Again" maxlength="255" required>
+                </div>
+                <div>
+                    <label for="birthday-id">Birthday: *</label>
+                    <input id="birthday-id" type="date" name="Date" required>
+                </div>
+                <section>
+                    <label for="gender">Gender Identity:</label>
+                    <div>
+                        <input id="gender-male-id" type="radio" name="gerder" value="male">
+                        <label for="gender-male-id">Male</label>
+                        <input id="gender-female-id" type="radio" name="gerder" value="female">
+                        <label for="gender-id">Female</label>
+                        <input id="gender-non-id" type="radio" name="gerder" value="non">
+                        <label for="gender-non-id">Non-binary</label>
+                        <input id="gender-answer-id" type="radio" name="gerder" value="answer">
+                        <label for="gender-answer-id">I prefer not to answer</label>
+                    </div>
+                </section>
+                <section>
+                    <label for="myself-id">A short description about myself:</label>
+                    <div>
+                        <textarea id="myself-id" name="area" rows="2" cols="39"
+                            placeholder="write anything you want"></textarea>
+                    </div>
+                </section>
+                <div>
+                    <label for="select-id">Favorite Language:</label>
+                    <select id="select-id" name="main-select">
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="check-id" type="checkbox" name="check">
+                    <label for="check-id">Yes, I would like to receive periodic email update</label>
+                </div>
+                <button type="submit">Create Account</button>
+                <p>* Indicates a required field</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
