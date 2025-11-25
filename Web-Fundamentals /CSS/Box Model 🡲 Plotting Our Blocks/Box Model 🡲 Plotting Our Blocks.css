@@ -1,0 +1,53 @@
+
+
+
+.container{
+    background-color: aqua;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header-box{
+    background-color: green;
+    height: 150px;
+}
+
+.main-contaner{
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.left-box{
+    background-color: blue;
+    height: 350px;
+    width: 200px;
+}
+
+.main-right{
+    background-color:red;
+    width:700px;
+    height: 435px;
+}
+
+.top-right{
+    gap: 15px;
+    display: flex;
+    padding:15px ;
+}
+
+.yellow1{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+ .bottom-right{
+    background-color: blueviolet;
+    width:600px;
+    height: 100px;
+    padding:15px ;
+    margin: 15px;
+}
