@@ -1,0 +1,21 @@
+
+
+Write a pseudocode to calculate the area of a rectangle. Your pseudocode should include 
+
+
+A clear formula to compute the area using the inputs (Area=Length×Width)
+
+
+START 
+
+    GET Length 
+    GET width
+
+
+    SET Area TO Length * Width 
+
+
+    PRINT "Area of rectangle: " + Area
+
+END    
+

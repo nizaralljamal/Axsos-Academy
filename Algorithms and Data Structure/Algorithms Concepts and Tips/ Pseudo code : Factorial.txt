@@ -1,0 +1,32 @@
+
+Write a pseudocode to calculate the  Factorial of a given positive integer n. Your pseudocode should include:
+
+    Input validation to ensure the number is a non-negative integer.
+    Handling of edge cases such as n=0n = 0n=0 and n=1n = 1n=1.
+    A clear explanation of the logic used to compute the factorial, either through iteration or recursion.
+    Output the result in a user-friendly format, e.g., 'The factorial of n is: result.'
+
+
+
+START 
+
+    GET number
+
+    IF number < 0 THEN 
+        PRINT "the number is negative integer , factorial just defind the positive integer. "
+    ELSE IF number = 0 THEN 
+        PRINT "the factorial of 0 is: 1"
+
+    
+    ELSE 
+        SET result TO 1
+        FOR i from 1 TO number
+            SET result *= i
+        ENDFOR
+
+
+        PRINT "the factorial of your " + number + "is: " + result
+    ENDIF
+
+END        
+

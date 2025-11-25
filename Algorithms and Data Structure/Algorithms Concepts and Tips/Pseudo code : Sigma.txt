@@ -1,0 +1,31 @@
+
+
+
+Write a pseudocode to calculate the sum of all integers from 1 to a given positive integer N
+
+
+
+START
+
+
+    GET number
+    
+    IF number < 1 THEN
+        PRINT "you must write the positive number "
+
+     ELSE 
+        SET sum TO 0
+        FOR i from 1 TO number 
+
+            SET sum += number
+        
+        
+        ENDFOR
+        
+        
+        PRINT "the sum of your " + number + "is: " + sum
+
+
+    ENDIF
+
+END        

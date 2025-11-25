@@ -1,0 +1,25 @@
+
+
+Write pseudocode to calculate the average of three numbers.
+
+
+Example Input:
+
+    Number1 = 10
+    Number2 = 20
+    Number3 = 30
+    Expected Output:
+    "The average is 20."
+
+
+START 
+
+    SET Number1 TO 10
+    SET Number2 TO 20
+    SET Number3 to 30
+
+    SET Sum TO Number1 + Number2 + Number3 
+    SET Average TO Sum/3
+    PRINT "the average of number: " + Average
+
+END    
