@@ -14,9 +14,9 @@ Example Input:
 
 START 
 
-    SET Number1 TO 10
-    SET Number2 TO 20
-    SET Number3 to 30
+    INPUT Number1 
+    INPUT Number2 
+    INPUT Number3 
 
     SET Sum TO Number1 + Number2 + Number3 
     SET Average TO Sum/3

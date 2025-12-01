@@ -8,8 +8,8 @@ A clear formula to compute the area using the inputs (Area=Length×Width)
 
 START 
 
-    GET Length 
-    GET width
+    INPUT Length 
+    INPUT width
 
 
     SET Area TO Length * Width 
