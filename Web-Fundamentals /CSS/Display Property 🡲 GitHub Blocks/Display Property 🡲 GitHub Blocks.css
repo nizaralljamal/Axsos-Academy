@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 17px;
-    background-color: rgb(202, 198, 198);
+    background-color: #ECF2F4;
     font-family: "Inter", sans-serif;
 }
 
@@ -20,22 +20,30 @@ img{
 
 }
 
-.top{
-    background-color: rgb(186, 139, 230);
+.top , .mid , .foter{
     display: flex;
     justify-content: space-evenly;
+
 
 }
 
-.body{
-    background-color: rgb(243, 141, 192);
-    display: flex;
-    justify-content: space-evenly;
+.top{
+    background-color: #56C5EF;
+
+}
+
+.mid{
+    background-color:#D1A3BA;
+    
 }
 
 .foter{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-evenly;
+    background-color:#FAFBFB;
 }
 
+p{
+    font-size: 22px;
+    color: rgb(75, 73, 73);
+    font-weight: 500;
+    text-align: center;
+}

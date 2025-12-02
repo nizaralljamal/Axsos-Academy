@@ -1,53 +1,39 @@
-
-
-
 .container{
-    background-color: aqua;
-    width: 900px;
-    height: 600px;
-    margin: 0 auto;
-    padding: 15px;
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
 }
-
-.header-box{
-    background-color: green;
+.top-nav {
     height: 150px;
+    background-color: green;
 }
-
-.main-contaner{
-    padding-top: 15px;
-    display: flex;
-    gap: 15px;
-}
-
-.left-box{
+.side-nav {
+    height: 300px;
+    width: 200px;
     background-color: blue;
-    height: 350px;
-    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
 }
-
-.main-right{
-    background-color:red;
-    width:700px;
-    height: 435px;
+.main {
+    height: 400px;
+    width: 723px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
 }
-
-.top-right{
-    gap: 15px;
-    display: flex;
-    padding:15px ;
-}
-
-.yellow1{
-    background-color: yellow;
-    width: 200px;
+.sub-content {
     height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 10px;
+    display: inline-block;
 }
-
- .bottom-right{
-    background-color: blueviolet;
-    width:600px;
-    height: 100px;
-    padding:15px ;
-    margin: 15px;
+#advertisement {
+    height: 120px;
+    width: 650px;
+    background-color: purple;
+    margin: 10px;
 }
