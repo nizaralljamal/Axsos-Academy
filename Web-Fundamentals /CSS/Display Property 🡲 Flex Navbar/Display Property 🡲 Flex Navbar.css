@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #FFF;
+}
+
+
+
+.nav{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+.nav-links li{
+    padding: 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-links li a:hover{
+    color: #ff6347;
+}
