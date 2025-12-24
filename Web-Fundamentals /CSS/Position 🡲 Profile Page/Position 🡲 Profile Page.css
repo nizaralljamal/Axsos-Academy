@@ -3,7 +3,13 @@
     margin: 0 ;
     
 }
-
+.header-org{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .heder{
     display: flex;
     justify-content: space-evenly;
@@ -26,24 +32,27 @@
 .Profile{
     font-size: 40px;
     color: #ffffff;
+    margin-left: 29px;
 }
 .SignOut{
-    background-color: rgb(139, 139, 180);
+    background-color: #17A2B8;
     color: white;
     padding: 10px;
     width: 150px;
-    box-shadow: 1px 2px 3px rgba(98, 96, 190, 0.9);
+    box-shadow: 1px 2px 3px #17A2B8;
     font-size: 20px;
 }
 
 
 
-.container {
-    display: flex;
-    gap: 20px;
-   
-}
 
+.container-org{
+    width: 70%;
+    display:flex ;
+    margin: 0 auto ;
+    justify-content: space-around;
+    
+}
 .main-content {
     display: flex;
     flex-direction: column;
@@ -63,7 +72,7 @@
 .box-1 {
   background-color: #fff;
   max-width: 652px;
-  height: 600px;
+  height: 500px;
   margin: 25px;
 }
 .main-heder {
@@ -82,7 +91,7 @@
 }
 
 .main-mid {
-  height: 450px;
+  height: 350px;
   border: 4px solid #c5c5c5;
   border-top: none;
 }
@@ -203,6 +212,7 @@ border: 4px solid #c5c5c5;
 
 .main-body-3 {
     padding: 20px;
+    height: 110px;
 }
 
 .request {
@@ -260,6 +270,7 @@ border: 4px solid #c5c5c5;
 
 .main-body-4 {
     padding: 20px;
+    height: 180px;
 }
 
 .connection {

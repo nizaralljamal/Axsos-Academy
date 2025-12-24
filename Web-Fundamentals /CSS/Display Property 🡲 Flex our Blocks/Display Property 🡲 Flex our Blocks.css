@@ -6,7 +6,7 @@
     width: 900px;
     height: 600px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 18px;
 }
 
 .header-box{
@@ -17,10 +17,14 @@
 .main-contaner{
     display: flex;
     gap: 15px;
-    padding:15px ;
+    margin-top: 15px;
 
 }
-
+.main-contaner-y{
+    display: flex;
+    gap: 15px;
+    padding: 18px 50px 10px 15px;
+}
 .left-box{
     background-color: blue;
     height: 350px;
@@ -44,6 +48,6 @@
     background-color: blueviolet;
     width:600px;
     height: 100px;
-    padding:15px ;
+    padding:14px ;
     margin: 15px;
 }
