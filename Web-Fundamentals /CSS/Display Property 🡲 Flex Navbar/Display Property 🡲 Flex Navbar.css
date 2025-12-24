@@ -17,9 +17,10 @@
     display: flex;
     list-style: none;
     color: #fff;
+    align-items: center;
 }
 .nav-links li{
-    padding: 15px;
+    padding: 20px;
 }
 .nav-links li a{
     text-decoration: none;
@@ -28,4 +29,20 @@
 }
 .nav-links li a:hover{
     color: #ff6347;
+}
+
+.btn{
+    background-color: #17a2b8;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px black;
+    width: 100px;
+    font-size: 15px;
+}
+
+.nav-title{
+    margin-left: 15px;
+}
+
+#a{
+    color:#a0a0a0 ;
 }
