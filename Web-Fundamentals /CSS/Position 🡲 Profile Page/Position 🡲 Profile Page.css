@@ -98,9 +98,7 @@
 
 .box-1 h1{
   font-size: 50px;
-  position: relative;
-  top: -100px;
-  left: 40px;
+  margin: -80px 0px 0px 25px;
 }
 
 .location {
@@ -108,10 +106,9 @@
     align-items: center;
     gap: 10px;
 }
-.img-map , .map-h2 {
-    position: relative;
-  top: -100px;
-  left: 40px;
+.img-map  {
+  margin: 10px 5px 9px 25px ;
+
 } 
 .img-map , .gear-img{
   height: 25px;
@@ -123,19 +120,14 @@
 
 h3{
   font-size: 20px;
-  position: relative;
-  top: -70px;
-  left: 40px;
+  margin: 25px;
 }
 span{
   display: flex;
 }
 
 .gear{
-  position: relative;
-  top: -40px;
-  left: 40px;
-  height: 25px;
+  margin: 25px;
 }
 
 .box-1 a{
