@@ -1,12 +1,12 @@
-const mySubmit = document.getElementById("mySubmit");
+// const mySubmit = document.getElementById("mySubmit");
 
-mySubmit.onclick = function() {
-    if (mySubmit.textContent === "Login") {
-        mySubmit.textContent = "Logout";
-    } else {
-        mySubmit.textContent = "Login";
-    }
-}
+// mySubmit.onclick = function() {
+//     if (mySubmit.textContent === "Login") {
+//         mySubmit.textContent = "Logout";
+//     } else {
+//         mySubmit.textContent = "Login";
+//     }
+// }
 const ninjaLike = document.getElementById("ninjaLike");
 ninjaLike.onclick = function(){
     ninjaLike = window.alert("Ninja was liked")
@@ -31,3 +31,14 @@ addDefinition.onclick = function(){
  myH1.onclick = function(){
     myH1.textContent = "Nizar Aljamal";
  }
+
+
+//  turnOn = (elemnt) => {
+//     if( elemnt.innerText === "login"){
+//     elemnt.innerText = "logout"
+
+//     }else{
+//         elemnt.innerText ="login"
+//     }
+//  }
+
