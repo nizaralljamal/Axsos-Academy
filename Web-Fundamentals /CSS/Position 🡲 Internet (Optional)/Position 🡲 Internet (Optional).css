@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header-h1 {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  position: relative;
+  height: 110px;
+}
+
+.header-h1-span {
+  color: #1d6099;
+}
+.header-img {
+  max-width: 150px;
+  width: 100%;
+  position: relative;
+  top: 13px;
+  right: 10px;
+}
+
+.header-mid {
+  background-color: #3470a4;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.header-h1-h1 {
+  position: relative;
+  top: 10px;
+  color: #474747;
+}
+
+.body-left-top {
+  max-width: 260px;
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+  border-bottom: 3px solid #d2d2d2;
+}
+
+.body-left-span1 {
+  color: #ca231d;
+}
+
+.body-left-p {
+  margin: 10px 0 10px 0;
+  /* background-color: #e9e9e9; */
+}
+
+.body-left-span2 {
+  color: #32618f;
+}
+
+.body-left-Btn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  max-width: 260px;
+}
+
+.body-left-Btn1 {
+  padding: 15px 0 15px 0;
+  border: none;
+  color: white;
+  background-color: #407caf;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0px 5px -10px;
+}
+
+.body-left-Btn2 {
+  padding: 15px 0 15px 0;
+  border: none;
+  color: white;
+  background-color: #ec962b;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px -8px 5px -10px;
+}
+
+.body-left-mid {
+  max-width: 260px;
+  margin: 25px 0 0 0;
+  max-height: 500px;
+}
+
+.body-left-mid-p {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 420px;
+  color: white;
+}
+
+.body-left-mid-ad {
+  max-width: 260px;
+  min-height: 430px;
+  width: 100%;
+  height: 100%;
+}
+
+.body-left-mid-ninja {
+  max-width: 150px;
+  width: 100%;
+  position: relative;
+  bottom: 430px;
+  left: 40px;
+}
+
+.body-left-mid-Btn {
+  position: relative;
+  bottom: 410px;
+  left: 1px;
+  padding: 13px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  letter-spacing: -1px;
+  background-color: #50cae0;
+  margin: 0 10px;
+}
+
+.button-left-mid {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+}
+
+.body-left-mid-Btn span {
+  padding: 0 0 0 10px;
+  font-size: 15px;
+}
+
+.body-container {
+  display: flex;
+  gap: 70px;
+}
+
+.body-right {
+  width: 100%;
+}
+
+.body-right-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-right-header-left-img {
+  max-width: 40px;
+  width: 100%;
+}
+
+.body-right-header-left {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #31648e;
+}
+
+.body-right-header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.body-right-header-right-img {
+  max-width: 80px;
+  margin: 13px 0 0 0;
+}
+
+.body-right-header-right-p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 15px 5px 0;
+}
+
+.body-right-header-right-num {
+  font-size: 40px;
+  color: #02bbd8;
+  font-weight: bold;
+  margin: 0 10px 0 -10px;
+}
+
+.body-right-top {
+  background-color: ;
+  border-top: 3px solid black;
+  margin: 30px 0 0 20px;
+}
+
+.body-right-top-h2 {
+  color: #215d94;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.body-right-top-p {
+  margin: 0 0 10px 0;
+}
+
+.body-right-top-span {
+  color: #45acba;
+  font-size: 18px;
+}
+
+.body-right-top-span-b {
+  font-weight: bold;
+}
+
+.body-right-top-ul {
+  margin: 0 10px 0 25px;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+}
+
+.body-right-top-ul-span {
+  display: block;
+}
+
+.body-right-mid-img {
+  width: 400px;
+  position: relative;
+  left: 170px;
+  top: 30px;
+}
+.body-right-mid {
+  height: 200px;
+}
+
+.body-right-mid-text-h3 {
+  color: #236399;
+  font-size: 25px;
+}
+
+.body-right-mid-text-ol {
+  padding: 10px 0 0 20px;
+  margin: 0 0 10px 20px;
+}
+
+.body-right-mid-text-ol li {
+  padding: 6px;
+  font-size: 20px;
+}
+
+.body-right-mid-text-span {
+  color: #309fb1;
+}
+
+.body-right-mid-text-span-shift{
+  display: block;
+}
+
+
+.body-right-footer{
+  display: flex;
+  gap: 25px;
+  border: 5px solid #0284de;
+  border-bottom: none;
+  padding: 15px;
+  max-width: 900px;
+}
+
+
+.body-right-footer-img1{
+  width: 180px;
+}
+
+
+.body-right-footer-text-h3{
+  color: #336b9d;
+  font-size: 22px;
+  margin: 5px 0 10px 0;
+}
+
+.body-right-footer-text-p{
+  
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
