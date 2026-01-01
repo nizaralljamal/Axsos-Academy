@@ -24,7 +24,7 @@
             <h2>San Jose</h2>
             <div class="degree-container">
                 <label>show temperature in </label>
-                <select class="select-container" onchange="tempConvert(this)">
+                <select id="temp" class="select-container" onchange="tempConvert(this)">
                     <option value="celsius">&degC</option>
                     <option value="fehrenhite">&degF</option>
                 </select>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="cookies-container">
+        <div id="cookies-container" class="cookies-container">
             <img src="assets/cookie.png" alt="cookie">
             <div class="cookies-text">
                 <h2>Stop! Cookie time</h2>
